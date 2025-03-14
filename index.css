@@ -1673,14 +1673,23 @@ a:active{
     .main-item{
         display: grid;
         grid-template-columns: repeat(2, 0fr);
-        padding: 20px 10px;
-        gap: 20px;
+        padding: 20px 10px -200px;
+        gap: 2px;
+        column-gap: -50px;
+        /* width: 300px; */
         text-align: center;
         /* padding: 20px; */
         /* z-index: -1; */
-        margin-left: 20px;
+        margin-left: 80px;
         justify-content: center;
     
+    }
+
+    .main-item div{
+        border-radius: 5px;
+        /* height: 500px; */
+        /* margin-top: 20px; */
+        background-size: 180px;
     }
     .main-tees{
         display: grid;
@@ -1688,32 +1697,48 @@ a:active{
         padding: 20px 10px;
         gap: 20px;
         /* z-index: -1; */
-        margin-left: -10px;
+        margin-left: 80px;
         justify-content: center;
     
     }
 
+    .main-tees div{
+        border-radius: 5px;
+        text-align: center;
+        /* margin-top: 20px; */
+        background-size: 180px;
+    }
+
+    .tees1 div{
+        width: 20px;
+        text-align: center;
+        border-radius: 0px;
+    }
     /* .items1{
        
         height: 150px;
-        width: 100px;
+        width: 300px;
         font-size: 10px;
         color: red;
-        margin-left: 30px;
+        margin-left: 50px;
         border-radius: 5px;
         background-position: center;
         background-image: url(GT904_WORLDWIDE-768x768.webp);
         background-size: 150px;
         background-repeat: no-repeat;
+        border-radius: 50px;
+        z-index: 1;
     }
 
+
+
     .items2{
-      
         height: 150px;
-        width: 100px;
+        width: 300px;
         font-size: 10px;
         color: red;
-        margin-left: -110px;
+        border-radius: 50px;
+        margin-left: -200px;
         border-radius: 5px;
         background-position: center;
         background-image: url(GT903_RANSOM-768x768.webp);
@@ -1721,14 +1746,16 @@ a:active{
         background-repeat: no-repeat;
     }
 
+
+
     .items3{
        
         display: block;
         height: 150px;
-        width: 100px;
+        width: 300px;
         font-size: 10px;
         color: red;
-        margin-left: 30px;
+        margin-left: 2px;
         border-radius: 5px;
         background-position: center;
         background-image: url(GT902_PRIDE-768x768.webp);
@@ -1739,10 +1766,10 @@ a:active{
     .items4{
        
         height: 150px;
-        width: 100px;
+        width: 300px;
         font-size: 10px;
         color: red;
-        margin-left: -110px;
+        margin-left: -100px;
         border-radius: 5px;
         background-position: center;
         background-image: url(GT103_Black-1.webp);
@@ -1974,7 +2001,7 @@ a:active{
     }
 
     .what img{
-        margin-left: -100px;
+        margin-left: -120px;
         position: fixed;
         margin-top: -100px;
         z-index: 1;
@@ -2002,11 +2029,57 @@ a:active{
         width: 100px;
         border: 0rem;
         opacity: 0;
-      
         cursor: pointer;
        
         border-radius: 2px;
     }
     button:hover{opacity: 1}
+
+
+    .items1 div{
+        width: 200px;
+        border-radius: 0px;
+    }
+    .items2 div{
+        width: 200px;
+        border-radius: 0px;
+    }
+    .items3 div{
+        width: 200px;
+        border-radius: 0px;
+    }
+    .items4 div{
+        width: 200px;
+        border-radius: 0px;
+    }
+    .items5 div{
+        width: 200px;
+        border-radius: 0px;
+    }
+    .items6 div{
+        width: 200px;
+        border-radius: 0px;
+    }
+    .items7 div{
+        width: 200px;
+        border-radius: 0px;
+    }
+    .items8 div{
+        width: 200px;
+        border-radius: 0px;
+    }
+    .items9 div{
+        width: 200px;
+        border-radius: 0px;
+    }
+    .items10 div{
+        width: 200px;
+        border-radius: 0px;
+    }
+    .items11 div{
+        width: 200px;
+        border-radius: 0px;
+    }
+
 }
     
