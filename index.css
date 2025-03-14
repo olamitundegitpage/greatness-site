@@ -1536,7 +1536,7 @@ a:active{
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: rgba(11, 11, 11, 0.8);
+    /* background-color: rgba(11, 11, 11, 0.8); */
     margin: auto;
     list-style: none;
     /* margin-left: -250px; */
@@ -1601,19 +1601,25 @@ a:active{
   svg{
     display: none;
   }
+  .first-img img{
+    height: 70px; 
+    margin-left: 50px;
+  }
 
 @media(max-width: 480px){
     *{
         margin: 0%;
         padding: 0%;
+        /* width: 600px; */
         box-sizing: border-box;
         background-color: rgb(5, 5, 5);
         color: rgb(255, 251, 251);
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     .main-container{
+        /* width: 400px; */
         /* z-index: -1; */
-        margin-left: -70px;
+        margin-left: -50px;
     }
 
     .main-container ul li{
@@ -1621,13 +1627,15 @@ a:active{
     }
 
     .first-img img{
-        width: 200px;
-       
+        margin-top: 10px;
+        width: 100px;
+        /* margin-left: -600px; */
+        height: 50px;
     }
 
     .first-img{
         display: flex;
-        gap: 170px;
+        gap: 230px;
         margin-left: 20px;
     }
 
@@ -1636,29 +1644,30 @@ a:active{
         margin-top: 20px;
     }
     .sec {
-        background-color: red;
+        /* background-color: red;
         color: white;
         text-align: center;
         padding: 10px;
-        height: 40px;
-        width: 1000px;
+        height: 40px; */
+        width: 500px;
         /* position: absolute;
         animation: anim 100s linear infinite; */
     }
     .sec p{
         background-color: red;
         color: white;
-        /* width: 1200px; */
-        margin-left: -500px;
-        text-align: center;
+        width: 500px;
+        /* display: none; */
+        margin-left: -40px;
+        /* text-align: center; */
         /* padding: 10px; */
-        position: absolute;
+        /* position: absolute; */
         animation: anim 10s linear infinite;
     }
     
     @keyframes anim {
         0%{transform: translateX(0);}
-        100%{transform: translateX(50%);}
+        100%{transform: translateX(-100%);}
     }
 
     .main-item{
@@ -1666,8 +1675,10 @@ a:active{
         grid-template-columns: repeat(2, 0fr);
         padding: 20px 10px;
         gap: 20px;
+        text-align: center;
+        /* padding: 20px; */
         /* z-index: -1; */
-        margin-left: -10px;
+        margin-left: 20px;
         justify-content: center;
     
     }
@@ -1939,17 +1950,19 @@ a:active{
 
     .last-con ul  {
         display: grid;
-        font-size: 20px;
+        font-size: 10px;
         width: 500px;
         height: 500px;
-        background: red;
+        padding: -10px;
+        /* background: red; */
         background-size: cover;
         background-color: red;
         /* text-align: center; */
         margin-left: -160px;
     }
 
-    .last-con li{
+    .last-con ul li{
+        /* padding: 10px; */
         background-color: red;
     }
 
@@ -1961,7 +1974,7 @@ a:active{
     }
 
     .what img{
-        margin-left: -600px;
+        margin-left: -100px;
         position: fixed;
         margin-top: -100px;
         z-index: 1;
@@ -1969,7 +1982,7 @@ a:active{
     }
 
     .footer{
-        padding: 20px;
+        padding: 10px;
         background-size: cover;
         background-color: red;
     }
