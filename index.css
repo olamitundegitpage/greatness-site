@@ -1616,6 +1616,10 @@ a:active{
         color: rgb(255, 251, 251);
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
+
+    body{
+        margin: 0%;
+    }
     .main-container{
         /* width: 400px; */
         /* z-index: -1; */
@@ -1649,7 +1653,7 @@ a:active{
         text-align: center;
         padding: 10px;
         height: 40px; */
-        width: 500px;
+        width: 480px;
         /* position: absolute;
         animation: anim 100s linear infinite; */
     }
@@ -1673,7 +1677,7 @@ a:active{
     .main-item{
         display: grid;
         grid-template-columns: repeat(2, 0fr);
-        padding: 20px 10px -200px;
+        padding: 20px 10px ;
         gap: 2px;
         column-gap: -50px;
         /* width: 300px; */
@@ -1681,6 +1685,7 @@ a:active{
         /* padding: 20px; */
         /* z-index: -1; */
         margin-left: 80px;
+        /* margin-right: 40px; */
         justify-content: center;
     
     }
@@ -2001,7 +2006,7 @@ a:active{
     }
 
     .what img{
-        margin-left: -120px;
+        margin-left: -110px;
         position: fixed;
         margin-top: -100px;
         z-index: 1;
@@ -2043,6 +2048,7 @@ a:active{
     .items2 div{
         width: 200px;
         border-radius: 0px;
+        
     }
     .items3 div{
         width: 200px;
