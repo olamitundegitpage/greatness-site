@@ -1591,6 +1591,10 @@ a:active{
     margin-left: 150px;
    
   }
+  /* .last-con li{
+    margin: -20px;
+    padding: -20px;
+  } */
 
  
 
@@ -1654,7 +1658,7 @@ a:active{
         text-align: center;
         padding: 10px;
         height: 40px; */
-        width: 480px;
+        width: 420px;
         /* position: absolute;
         animation: anim 100s linear infinite; */
     }
@@ -2002,13 +2006,15 @@ a:active{
         /* background-size: cover; */
         background-color: red;
         /* text-align: center; */
-        margin-left: -160px;
+        margin-left: -100px;
     }
 
     .footer .last-con ul li{
-        
+        margin-left: -100px;
         padding: 10px;
         background-color: red;
+        /* gap: 10px; */
+        column-gap: 200px;
     }
 
     .tun{
@@ -2023,7 +2029,9 @@ a:active{
         position: fixed;
         margin-top: -100px;
         z-index: 1;
-        background-color: rgb(255, 0, 0);
+        height: 50px;
+        width: 50px;
+        background-color: rgb(255, 0, 234);
     }
 
     .footer{
